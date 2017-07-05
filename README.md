@@ -22,7 +22,7 @@ average result is 45%, depends on frequency can be up to 90%
 > !not working with cyrillic symbols, it's a simple archivator made with learning purposes
 
 
-### how it works
+### how it's implemented
 **compression:**
 1. read text from the input file
 2. create frequencies table using collections.Counter
@@ -34,7 +34,7 @@ average result is 45%, depends on frequency can be up to 90%
 8. place the encoded tree before encoded text
 9. save it to a new binary file
 
-**decompress**
+**decompression**
 1. read encoded data from binary file
 2. decode a Huffman tree
 3. using the tree decode the text
